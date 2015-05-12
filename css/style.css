@@ -1,0 +1,57 @@
+body {
+	background: #f2f1f1;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.header-block {
+	width: 95%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+.top-menu .menu {
+	height: 91px;
+	background: #FFF;
+	padding: 0px;
+	width: 95%;
+}
+
+.top-menu .menu li {
+	float: left;
+	list-style: none;
+	list-style-type: none;
+	background: #FFF;
+}
+
+.top-menu .menu li:hover {
+	background: #2579bf;
+}
+
+.top-menu .menu li span a {
+	padding: 20px 20px;
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	height: 91px;
+	line-height: 91px;
+}
+
+.top-menu .menu li:hover span a {
+	color: #FFF;
+}
+
+.clearfix::after {
+	clear: both;
+	content: "";
+	display: block;
+	font: 0px;
+	height: 0;
+	visibility: hidden;
+}

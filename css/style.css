@@ -4,21 +4,26 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
 
 .header-block {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-size:16px;
 }
 
+
+/*Верхнее меню*/
 .top-menu .menu {
 	height: 91px;
 	background: #FFF;
 	padding: 0px;
-	width: 95%;
+	width: 100%;
 }
 
 .top-menu .menu li {
@@ -27,6 +32,7 @@ body {
 	list-style-type: none;
 	background: #FFF;
 }
+
 
 .top-menu .menu li:hover {
 	background: #2579bf;
@@ -46,6 +52,74 @@ body {
 .top-menu .menu li:hover span a {
 	color: #FFF;
 }
+
+.top-menu .menu li ul.submenu {
+	background: #FFF;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+}
+
+.top-menu .menu li:hover ul.submenu {
+	display: block;
+}
+
+.top-menu .menu li ul.submenu li {
+	background: #FFF;
+	float: none;
+	line-height: 30px;
+	widows: 150px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #f2f1f1;
+}
+
+.top-menu .menu li ul.submenu li:hover {
+	background:#f2f1f1;
+}
+
+
+.top-menu .menu li ul.submenu li a {
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+}
+
+
+
+.goverments {
+	background: #FFF;
+	padding: 0 20px;
+}
+
+ul.goverment-items {
+	padding: 0px;
+	width: 93%;
+	margin: 0 auto;
+}
+
+.goverment-items li {
+	list-style: none;
+	list-style-type: none;
+	float: left;
+	width: 165px;
+	padding: 0 15px;
+	text-align: center;
+}
+
+
+
+
+
+
 
 .clearfix::after {
 	clear: both;

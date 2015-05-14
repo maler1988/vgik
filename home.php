@@ -1,21 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"> 
 <? include "includes/head.php"; ?>
-
-<body>
-
-
-
-
-
-
-
-
-
-
+	<div class="flexslider">
+	  <ul class="slides">
+			<li><img src="images/slide-1.jpg" ></li>
+			<li><img src="images/slide-2.jpg" ></li>
+			<li><img src="images/slide-3.jpg" ></li>
+		</ul>
+	</div>
 
 
 <? include "includes/footer.php"; ?>
 
-</body>
-</html>
+
